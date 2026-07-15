@@ -4,6 +4,8 @@ This project predicts Hubbard `U` and `V` parameters from crystal-structure data
 
 This repository is the final capstone project for the MBA in Data Science and Analytics at ESALQ/USP, based on the thesis titled *Linear and non-linear relationships in the prediction of Hubbard parameters in metal-organic frameworks*.
 
+**Production follow-up:** models from this analysis are served in [tbhubbard-production](https://github.com/pcostacarvalho/tbhubbard-production) (FastAPI, Streamlit, Docker, CI, live demo).
+
 ## Problem
 The goal is to estimate two electronic interaction parameters (`U` and `V`) for metal-organic frameworks (MOFs) using machine learning. Computing these parameters directly is costly, so faster predictive models can support large-scale material screening. The project uses the TBHubbard/QMOF data pipeline with structural, chemical-identity, charge, and distance descriptors.
 
